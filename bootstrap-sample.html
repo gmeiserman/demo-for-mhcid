@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <style>
-    .outline {border:solid black 1px}
+    .outline {border:solid white 2px}
     .background1 {background-color: rgb(91,142,125)}
     .background2 {background-color: rgb(180,203,195)}
     .background3 {background-color: rgb(58,91,80)}
@@ -16,7 +16,7 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row background1">
+      <div class="row background1 text-center">
         <div class="col">
           Columns
         </div>
@@ -27,6 +27,21 @@
           kool
         </div>
       </div>
+      <div class="row myBack1 myOutline text-center">
+   			<div class="col-2">
+          two columnz
+			  </div>
+   			<div class="col-10">
+				<div class="row background3 text-center">
+   					<div class="col-md-6 outline"> <button type="button" class="btn btn-clickhere">CLICK ME</button>
+            </div>
+   					<div class="col-md-4 outline"> more stuff
+            </div>
+   					<div class="col-md-2 outline"> <button type="button" class="btn btn-small">small button</button>
+            </div>
+				</div>
+			</div>
+		</div>
     </div>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
